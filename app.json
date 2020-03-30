@@ -1,31 +1,36 @@
 {
   "expo": {
-    "name": "quoteapp",
-    "slug": "quroteapp",
+    "name": "coins",
+    "slug": "coins",
     "privacy": "public",
     "sdkVersion": "36.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1C2833"
+    },
+    "githubUrl": "https://github.com/alexalannunes/quoteapp",
+    "primaryColor": "#1C2833",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#1C2833"
+    },
+    "androidNavigationBar": {
+      "visible": false,
+      "backgroundColor": "#1C2833"
+    },
+    "android": {
+      "package": "com.alexalannunes.coins",
+      "versionCode": 1
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
+    "assetBundlePatterns": ["**/*"],
     "description": "A little app about finances"
   }
 }

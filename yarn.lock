@@ -884,7 +884,7 @@
   integrity sha512-v9kIhKwjeZThiWrLmj0y17CWoyddASLj9O2yvbZkbvw/N3rWOYy9zkV66ursAoVr0mV15bL8g0c4QZUE6cdDoQ==
   dependencies:
     exec-sh "^0.3.2"
-    minimist "^1.2.0"
+    minimist "1.2.0"
 
 "@egjs/hammerjs@^2.0.17":
   version "2.0.17"
@@ -1095,7 +1095,7 @@
     metro-config "^0.56.0"
     metro-core "^0.56.0"
     metro-react-native-babel-transformer "^0.56.0"
-    minimist "^1.2.0"
+    minimist "1.2.0"
     mkdirp "^0.5.1"
     morgan "^1.9.0"
     node-notifier "^5.2.1"
@@ -3172,7 +3172,7 @@ json5@^2.1.0:
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.1.tgz#81b6cb04e9ba496f1c7005d07b4368a2638f90b6"
   integrity sha512-l+3HXD0GEI3huGq1njuqtzYK8OYJyXMkOLtQ53pjWh89tvWS2h6l+1zMkYWqlb57+SiQodKZyvMEFb2X+KrFhQ==
   dependencies:
-    minimist "^1.2.0"
+    minimist "1.2.0"
 
 jsonfile@^2.1.0:
   version "2.4.0"
@@ -4585,7 +4585,7 @@ sane@^4.0.3:
     execa "^1.0.0"
     fb-watchman "^2.0.0"
     micromatch "^3.1.4"
-    minimist "^1.1.1"
+    minimist "1.1.1"
     walker "~1.0.5"
 
 sax@^1.2.1:
