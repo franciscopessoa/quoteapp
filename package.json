@@ -1,5 +1,6 @@
 {
   "name": "quuoteapp",
+  "version": "1.0.0",
   "description": "A simple React Native quote app. Using EXPO",
   "author": {
     "name": "Alex Alan Nunes",
