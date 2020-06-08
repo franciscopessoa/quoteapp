@@ -17,4 +17,4 @@ I used this public api to get data:
 
 
 
-![App print](./app.jpeg)
+<img src="./app.jpeg" width="30%" />
