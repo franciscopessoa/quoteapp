@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, Component } from "react";
 import {
   ActivityIndicator,
   TouchableNativeFeedback,
@@ -24,7 +24,17 @@ import {
   Footer
 } from "./style";
 
-export default class App extends React.Component {
+export default class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      coin: null,
+      loading: false,
+      current: "USD"
+    };
+  }
+
   translateY = new Animated.Value(0);
   _onPanGestureEvent = Animated.event(
     [{ nativeEvent: { translationY: this.translateY } }],
@@ -49,12 +59,6 @@ export default class App extends React.Component {
         useNativeDriver: true
       }).start(() => this._get());
     }
-  };
-
-  state = {
-    coin: null,
-    loading: false,
-    current: "USD"
   };
 
   _get = () => {
